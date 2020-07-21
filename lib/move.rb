@@ -18,6 +18,6 @@ def move (board, index, char='X')
     array[index] = value
   end
 
-  update_array_at_with(board, index, "X")
+  update_array_at_with(board, index, char)
   return board
 end
